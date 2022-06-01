@@ -8,6 +8,10 @@
   <a href="#mobile">MOBILE</a>
 </p>
 
+## DESKTOP
+![chat-desktop](https://user-images.githubusercontent.com/85270764/171440762-c592618a-adbc-496b-8d3a-8ce4b39ae24b.gif)
+
+
 ## TECNOLOGIAS
 
 <p>As seguintes ferramentas foram usadas neste projeto...</p>
