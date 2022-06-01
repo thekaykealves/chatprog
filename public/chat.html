@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- ICON -->
+  <link rel="shortcut icon" href="images/chat.png" type="image/x-icon">
+  
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap" rel="stylesheet">  
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="./styles/chat.css">  
+  
+  <title>Chat</title>
+</head>
+<body>
+  <div class="header wrapper">
+    <h1>Bem-vindo ao chat!</h1>
+    <p>Para começar, digite seu nome e depois clique em definir!</p>
+
+    <div class="form_name wrapper">
+      <form action="chat.html" name="user_form_name" id="user_form" >
+        <input name="user" id="user" type="text" placeholder="Nome" required>
+        <button type="submit">Definir</button>
+      </form>
+    </div>
+
+    <p>Todas as mensagens aparecerão abaixo.</p>
+  </div>
+  
+  <div class="wrapper">
+    <div id="messages">
+
+    </div>
+  
+    <div class="form_message">
+      <form name="message_form_name" id="message_form">
+    
+        <input name="msg" id="message" type="text" placeholder="Digite sua mensagem aqui" required>
+        <button type="submit">Enviar</button>
+      
+      </form>
+    </div>
+
+    <a id="backToHome" href="./index.html">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M14.5 4L7 11.5L14.5 19" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+
+  </div>
+  
+  <script defer src="/socket.io/socket.io.js"></script>
+  <script defer src="./scripts/client.js"></script>
+</body>
+</html>

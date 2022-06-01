@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ICON -->
+  <link rel="shortcut icon" href="images/chat.png" type="image/x-icon">
+ 
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="./styles/index.css">
+
+  <title>Home</title>
+</head>
+<body>
+
+  <header id="header">
+    <nav class="wrapper">
+      <h2 class="logo">CHATPROG</h2>
+      
+      <ul>
+        <a href="#home">Início</a>
+        <a href="#about">Sobre</a>
+        <a href="#contact">Redes sociais</a>
+      </ul>
+
+      <button id="openMenuButton"><img src="./images/home.png" alt="ícone para abrir o menu mobile" onclick="openMenu()"></button>
+
+      <button id="closeMenuButton"><img src="./images/cancel.png" alt="ícone para fechar o menu mobile" onclick="closeMenu()"></button>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="wrapper">
+      <div class="container">
+        <h2>Converse com pessoas que possam te ajudar e tirar dúvidas sobre programação 👨‍💻</h2>
+                
+        <a href="./chat.html">Entrar na sala</a>
+      </div>
+
+      <img id="img_container" src="./images/programming.avif" alt="imagem de um setup, onde há um teclado, um monitor na vertical e um na horizontal, ambos com códigos sendo exibidos na tela">
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section id="about">
+    <h2>Sobre o <span>CHATPROG</span></h2>
+    <div class="wrapper">
+      <img src="./images/user_chat.avif" alt="Imagem de uma pessoa digitando em um notebook">
+
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus repudiandae doloremque asperiores deserunt alias illo quisquam quas dolor soluta tempore sequi veritatis totam, odio at inventore sapiente assumenda neque? Eius!</p>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <footer id="contact">
+    <div class="wrapper">
+      <div class="text">
+        <a href="#header" class="logo">CHATPROG</a>
+      </div>
+
+      <p>by Kayke Alves</p>
+
+      <div class="social-links">
+        <a href="https://instagram.com" target="_blank"><img src="./images/instagram.png" alt="icone do instagram"></a>
+        <a href="https://facebook.com" target="_blank"><img src="./images/facebook.png" alt="icone do facebook"></a>
+        <a href="https://github.com/thekaykealves" target="_blank"><img src="./images/github.png" alt="icone do github"></a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="divider"></div>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="./scripts/script.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script defer src="./scripts/client.js"></script>
+</body>
+</html>
