@@ -1,0 +1,96 @@
+@import url(./index.css);
+
+.header {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+.header p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form_name p {
+  font-size: 3rem;
+}
+
+.form_name form input {
+  margin-right: 1rem;
+}
+
+.form_name form input,
+.form_name form button {
+  padding: 1rem;
+  background-color: var(--teriary-color);
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.form_name form input::placeholder {
+  color: var(--tertiary-color);
+  font-size: 1.6rem;
+}
+
+#messages {
+  margin-top: 1rem;
+  background-color: var(--bg-color);
+  border: 1px solid var(--tertiary-color);
+  color: white;
+  padding: 2rem;
+  width: 100%;
+  height: 50vh;
+  font-size: 1.8rem;
+}
+
+#messages span {
+  color: var(--primary-color);
+}
+
+.form_message {
+  text-align: center;
+}
+
+.form_message input {
+  margin-right: 1rem;
+}
+
+.form_name form input::placeholder,
+.form_message input::placeholder {
+  color: var(--primary-color);
+}
+
+.form_message input,
+.form_message button {
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.form_name form button,
+.form_message button,
+#backToHome {
+  transition: background 0.3s ease-in-out;
+}
+
+.form_name form button:hover, 
+.form_message button:hover {
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+  cursor: pointer;
+}
+
+#backToHome path[stroke*='white'] {
+  stroke: var(--primary-color);
+}
+
+@media (max-width: 500px) {
+  #backToHome {
+    position: absolute;
+    top: 4rem;
+    left: 1.5rem;
+  }
+}
