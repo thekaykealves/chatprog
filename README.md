@@ -6,7 +6,7 @@
   <a href="#tecnologias">Tecnologias</a> |
   <a href="#desktop">DESKTOP</a> |
   <a href="#mobile">MOBILE</a> |
-  <a href="#como">Como usar o projeto</a>
+  <a href="#como usar o projeto">Como usar o projeto</a>
 </p>
 
 ## DESKTOP 🖥️
