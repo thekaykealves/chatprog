@@ -5,8 +5,7 @@
 <p align="center">
   <a href="#tecnologias">Tecnologias</a> |
   <a href="#desktop">DESKTOP</a> |
-  <a href="#mobile">MOBILE</a> |
-  <a href="#licence">Licença</a>
+  <a href="#mobile">MOBILE</a>
 </p>
 
 ## TECNOLOGIAS
