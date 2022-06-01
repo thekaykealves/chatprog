@@ -11,6 +11,9 @@
 ## DESKTOP
 ![chat-desktop](https://user-images.githubusercontent.com/85270764/171440762-c592618a-adbc-496b-8d3a-8ce4b39ae24b.gif)
 
+## MOBILE
+![chat-mobile](https://user-images.githubusercontent.com/85270764/171441127-a6c71b0b-c909-4522-8a52-898bb7f308ea.gif)
+
 
 ## TECNOLOGIAS
 
