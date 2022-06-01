@@ -6,7 +6,7 @@
   <a href="#tecnologias">Tecnologias</a> |
   <a href="#desktop">DESKTOP</a> |
   <a href="#mobile">MOBILE</a> |
-  <a href="#como usar o projeto">Como usar o projeto</a>
+  <a href="#use">Como usar o projeto</a>
 </p>
 
 ## DESKTOP 🖥️
@@ -33,7 +33,7 @@
   <li>YARN</li>
 </ul>
 
-## Como usar esse projeto 🤔
+<h2 id="use">Como usar esse projeto 🤔</h2>
 
 ``` bash
  # Clone este repositório
