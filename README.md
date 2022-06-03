@@ -15,7 +15,7 @@
 
 <h2 id="mobile">MOBILE 📱</h2>
 
-![chat-desktop](https://user-images.githubusercontent.com/85270764/171954799-26ab73f0-c453-4193-9825-8672752e5894.gif)
+![chat-mobile](https://user-images.githubusercontent.com/85270764/171955048-8221b64e-9a05-419a-aa0a-b224698f83da.gif)
 
 <h2 id="tecnologias">TECNOLOGIAS 🚀</h2>
 
