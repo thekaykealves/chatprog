@@ -10,9 +10,11 @@
 </p>
 
 <h2 id="desktop">DESKTOP 🖥️</h2>
+
 ![chat-desktop](https://user-images.githubusercontent.com/85270764/171440762-c592618a-adbc-496b-8d3a-8ce4b39ae24b.gif)
 
 <h2 id="mobile">MOBILE 📱</h2>
+
 ![chat-desktop](https://user-images.githubusercontent.com/85270764/171954799-26ab73f0-c453-4193-9825-8672752e5894.gif)
 
 <h2 id="tecnologias">TECNOLOGIAS 🚀</h2>
